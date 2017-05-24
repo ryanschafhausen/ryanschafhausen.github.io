@@ -1,90 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
-	<head>
-		<title>SashaDog</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>Ryan Schafhausen</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css">
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="assets/scripts/navJumboHeader.js"></script>
-	</head>
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<body>	
-		<div id="navJumboHeader"></div>		
+  <!-- FONT -->
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
-		<div class="container">
-			<div class="row">
-				<div class="wrapper">
-					<h3 id="sashaDogDescription">SashaDog is a Web Development Sandbox and Creativity Dump built on the loving goofiness of my Saint Bernard dog.</h3>
-				</div>
-			</div>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout -->  
+  <div class="container">
+	<div class="row">
+		<div class="one-half column" style="margin-top: 20%">
+			<h2 style="padding-bottom: 25px">Ryan Schafhausen</h2>
+			<h4>Coming Soon</h4>
+			<p>This page is being rebuilt using <a href="http://www.getskeleton.com">Skeleton</a>. Stand by for frequent updates.</p>
 		</div>
-		
-		<div class="container">  
-			<hr>  
-				<div class="row-fluid flex">
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<div class="panel panel-default">
-							<div class="panel-heading"><h3>Blog</h3></div>
-							<div class="panel-body">I'm a full-stack developer and there is something very pleasing about working with the order
-							and structure of back-end code. However, I've come to really enjoy the creativity afforded by the presentation layer and by 
-							web development in general. This blog is an ecclectic collection of those experiences.
-							</div>
-							<div class="panel-footer text-right"><a href="blog.html" class="btn btn-default">More</a></div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<div class="panel panel-default">
-							<div class="panel-heading"><h3>Resources</h3></div>
-							<div class="panel-body">I spend a lot of time exploring, learning, and finding better and faster ways to do things. Occasionally
-							I find tools that really end up helping me along. If they helped me, they may help you too. Take a look.
-							</div>
-							<div class="panel-footer text-right"><a href="resources.html" class="btn btn-default">More</a></div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<div class="panel panel-default">
-							<div class="panel-heading"><h3>Contact</h3></div>
-							<div class="panel-body">Please contact me with any comments or questions you may have about this site. Or, if I can help
-							you with a project, I'd love to hear from you.
-							</div>
-							<div class="panel-footer text-right"><a href="contact.html" class="btn btn-default">More</a></div>
-						</div>
-					</div>
-				</div><!--/row-->  
-			<hr>  
-</div><!--/container-->
-	</body>
-	
-	<script>
-	
-		$(document).ready(function(){
-		
-			$('#navJumboHeader').NavJumboPlugin({
-                jumboH: 'SashaDog',
-                jumboP: ' '
-            });
-			
-			var jumboHeight = $('.jumbotron').outerHeight();
-		
-			function parallax(){
-				var scrolled = $(window).scrollTop();
-				$('.bg').css('height', (jumboHeight-scrolled) + 'px');
-			}
-			
-			$(window).scroll(function(e){
-				parallax();
-			});
-				
-		});
-					
-	</script>
-	
+    </div>
+  </div>
+
+</body>
 </html>
 
+<!-- 
+
+	http://codepen.io/SitePoint/pen/PwmjYp
+
+	https://www.sitepoint.com/getting-started-with-skeleton-simple-css-boilerplate/
+
+	http://getskeleton.com/
+	
+-->
