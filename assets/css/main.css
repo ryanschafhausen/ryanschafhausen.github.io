@@ -1,0 +1,72 @@
+body {
+  padding-top: 60px;
+  background-color: #455a64;
+  color: #ffffff;
+}
+
+
+
+/* Navbar styles
+-------------------------------------------------- */
+.navbar {
+	background-color: #1c313a;	
+}
+
+.navbar-brand {
+	color: #718792;
+}
+
+.navbar-brand:hover {
+	color: #ffa726;
+}
+
+.nav-item > a {
+	color: #718792;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 135, 146, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.btn-outline-secondary {
+	color: #ffa726;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  text-align: center;
+  background-color: #718792;
+}
+
+.fa {
+	font-size:36px; 
+	color: #1c313a;
+}
+
+.socialLink {
+	padding: 10px;
+}
+
+/* Behaviors
+-------------------------------------------------- */
+a:hover { 
+    color: #ffa726;
+	text-decoration: none;
+}
