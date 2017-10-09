@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
-  background-color: #455a64;
-  color: #ffffff;
+  background-color: #252839;
+  color: #b5b5b7;
 }
 
 
@@ -9,19 +9,19 @@ body {
 /* Navbar styles
 -------------------------------------------------- */
 .navbar {
-	background-color: #1c313a;	
+	background-color: #677077;	
 }
 
 .navbar-brand {
-	color: #718792;
+	color: #252839;
 }
 
 .navbar-brand:hover {
-	color: #ffa726;
+	color: #f2b632;
 }
 
 .nav-item > a {
-	color: #718792;
+	color: #252839;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -29,7 +29,7 @@ body {
 }
 
 .btn-outline-secondary {
-	color: #ffa726;
+	color: #f2b632;
 }
 
 /* Sticky footer styles
@@ -52,12 +52,12 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
   text-align: center;
-  background-color: #718792;
+  background-color: #677077;
 }
 
 .fa {
 	font-size:36px; 
-	color: #1c313a;
+	color: #252839;
 }
 
 .socialLink {
@@ -67,6 +67,6 @@ body {
 /* Behaviors
 -------------------------------------------------- */
 a:hover { 
-    color: #ffa726;
+    color: #f2b632;
 	text-decoration: none;
 }
