@@ -1,104 +1,63 @@
-/* Styles go here */
-
-html { 
-  background: url(../images/mainBg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 0.65;
-}
-
-body {
-  padding-top: 4em;
-  color: #b5b5b7;
-  background-color: #252839;
-  font: Trebuchet MS, sans-serif;
-  width: 100%;
-}
-
 body, html {
     height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: white;
 }
 
-/* Navbar styles
--------------------------------------------------- */
+.bg {
+    /* The image used */
+    background-image: url(../images/mainBg.jpg);
 
-.navbar {
-  background-color: #252839;
+    /* Full height */
+    height: 100%; 
+    opacity: .75;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar-brand {
-  color: #677077;
-  font-size: 55px;
+.caption {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
 }
 
-.navbar-brand-circle {
-  border-radius: 50%;
-  width: 54px;
-  height: 54px;
-  border: 2px solid #677077;
-  background: #f2b632;
-  text-align: center;
-  font: 46px Trebuchet MS, sans-serif;
-  padding: 0px;
+.caption h1 {
+    color: black;
+    margin: 0;
+    font-size: 14vw;
+    letter-spacing: 1vw;
+	color: white;
+}
+    
+.caption h2 {
+  color: white;
+  font-size: 4vw;
+  letter-spacing: 1vw;
+}
+    
+.caption h4 {
+  color: white;
+  padding: 18px;
+  font-size: 1.8vw;
+  letter-spacing: .4vw;
 }
 
-.navbar-brand:hover {
-  color: #b5b5b7;
-}
-
-.navbar-brand-circle:hover {
-  border: 3px solid #b5b5b7;
-}
-
-.nav-item > a {
-  color: #b5b5b7;
-  font-size: 22px;
-  margin: 15px;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(181, 181, 183, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.btn-outline-secondary {
-  color: #f2b632;
-}
-
-
-/* Page element styles
--------------------------------------------------- */
-
-hr {
+.caption hr {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  border-color: #b5b5b7;
-  max-width: 26vw;
+  border-color: #000;
+  max-width: 40vw;
   opacity: 1;
-}
-
-h1 {
-  font: 11.8vw Trebuchet MS, sans-serif;
-  opacity: 1;
-}
-
-h2 {
-  font: 4vw Trebuchet MS, sans-serif;
-}
-
-h4 {
-  font: 1.8vw Trebuchet MS, sans-serif;
-}
-
-/* Behaviors
--------------------------------------------------- */
-
-a:hover {
-  color: #f2b632;
-  text-decoration: none;
 }
