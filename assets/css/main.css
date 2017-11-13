@@ -1,47 +1,61 @@
+/* Styles go here */
+
+html { 
+  background: url(../images/mainBg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.65;
+}
+
 body {
-  padding-top: 120px;
-  background-color: #252839;
+  padding-top: 4em;
   color: #b5b5b7;
+  background-color: #252839;
   font: Trebuchet MS, sans-serif;
   width: 100%;
 }
 
-
+body, html {
+    height: 100%;
+}
 
 /* Navbar styles
 -------------------------------------------------- */
+
 .navbar {
-	background-color: #252839;		
+  background-color: #252839;
 }
 
 .navbar-brand {
-	color: #677077;
-	font-size: 55px;
+  color: #677077;
+  font-size: 55px;
 }
 
 .navbar-brand-circle {
-	border-radius: 50%;
-	width: 54px;
-	height: 54px;
-	border: 2px solid #677077;
-	background: #f2b632;
-	text-align: center;
-	font: 46px Trebuchet MS, sans-serif;
-	padding: 0px;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  border: 2px solid #677077;
+  background: #f2b632;
+  text-align: center;
+  font: 46px Trebuchet MS, sans-serif;
+  padding: 0px;
 }
 
 .navbar-brand:hover {
-	color: #b5b5b7;
+  color: #b5b5b7;
 }
 
 .navbar-brand-circle:hover {
-	border: 3px solid #b5b5b7;
+  border: 3px solid #b5b5b7;
 }
 
 .nav-item > a {
-	color: #b5b5b7;
-	font-size: 22px;
-	margin: 15px;
+  color: #b5b5b7;
+  font-size: 22px;
+  margin: 15px;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -49,65 +63,42 @@ body {
 }
 
 .btn-outline-secondary {
-	color: #f2b632;
+  color: #f2b632;
 }
 
 
 /* Page element styles
 -------------------------------------------------- */
 
-hr { 
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-	border-color: #677077;
-	max-width: 25.8em;
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #b5b5b7;
+  max-width: 26vw;
+  opacity: 1;
 }
 
-.mainFirst {
-	margin-top: 4rem;
-	margin-bottom: 0px;
-	font: 12em Trebuchet MS, sans-serif;
-	text-align: center;
-	max-width: 25.8em;
-	
+h1 {
+  font: 11.8vw Trebuchet MS, sans-serif;
+  opacity: 1;
 }
 
-.mainLast {
-	margin-bottom: 0px;
-	font: 4em Trebuchet MS, sans-serif;
-	text-align: center;
+h2 {
+  font: 4vw Trebuchet MS, sans-serif;
 }
 
-.mainSub {
-	margin-top: 3.2em;
-	font: 1.8em Trebuchet MS, sans-serif;
-	text-align: center;
+h4 {
+  font: 1.8vw Trebuchet MS, sans-serif;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-	
-	.mainFirst {
-		margin-top: 4rem;
-		margin-bottom: 0px;
-		font: 6em Trebuchet MS, sans-serif;
-		text-align: center;
-		max-width: 25.8em;
-	
-}
-}
-
 
 /* Behaviors
 -------------------------------------------------- */
-a:hover { 
-    color: #f2b632;
-	text-decoration: none;
+
+a:hover {
+  color: #f2b632;
+  text-decoration: none;
 }
