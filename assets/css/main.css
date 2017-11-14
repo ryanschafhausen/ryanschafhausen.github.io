@@ -1,13 +1,13 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 400 15px/1.8 "Century Gothic", sans-serif;
     color: white;
 }
 
 .bg {
     /* The image used */
-    background-image: url(../images/mainBg.jpg);
+    background-image: url(../images/mainBgV2.jpg);
 
     /* Full height */
     height: 100%; 
@@ -32,14 +32,14 @@ body, html {
 .caption h1 {
     color: black;
     margin: 0;
-    font-size: 14vw;
+    font-size: 10vw;
     letter-spacing: 1vw;
 	color: white;
 }
     
 .caption h2 {
   color: white;
-  font-size: 4vw;
+  font-size: 6vw;
   letter-spacing: 1vw;
 }
     
@@ -58,6 +58,6 @@ body, html {
   border-style: inset;
   border-width: 1px;
   border-color: #000;
-  max-width: 40vw;
+  max-width: 55vw;
   opacity: 1;
 }
