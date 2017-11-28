@@ -19,6 +19,74 @@ body, html {
     background-size: cover;
 }
 
+.navbar-toggleable-md .navbar-collapse {
+	list-style: none;
+}
+
+.nav-item a {
+	float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+	letter-spacing: .5vw;
+    color: white;	
+	opacity: 1;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover {
+  color: #f2b632;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-toggler {
+	border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-inverse .navbar-toggler:focus {
+	border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-inverse .navbar-brand {
+	color: #677077;
+}
+
+.navbar-brand {
+	color: #677077;
+	font: 2.75em "Century Gothic", sans-serif;
+	
+    left: 1rem;
+    top: 1rem;
+}
+.navbar-brand-circle {
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #677077;
+    background: #f2b632;
+    text-align: center;
+    font: 10em;
+    padding: 0px;	
+}
+
+.navbar-inverse .navbar-brand:hover{
+	color: #b5b5b7;
+}
+
+.navbar-brand-circle:hover {
+    border: solid #b5b5b7;
+}
+
+.navbar-toggler-right {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
 .caption {
     position: absolute;
     left: 0;
@@ -60,4 +128,16 @@ body, html {
   border-color: #000;
   max-width: 55vw;
   opacity: 1;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .25s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .25s, opacity .25s linear;
 }
