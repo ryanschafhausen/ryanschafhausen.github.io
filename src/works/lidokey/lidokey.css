@@ -7,10 +7,10 @@ body, html {
 
 .bg {
     /* The image used */
-    background-image: url(../images/mainBgV2.jpg);
+    background-image: url(mainBgV2.jpg);
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
     opacity: .75;
 
     /* Center and scale the image nicely */
@@ -30,7 +30,7 @@ body, html {
     padding: 8px 16px;
     text-decoration: none;
 	letter-spacing: .5vw;
-    color: white;	
+    color: white;
 	opacity: 1;
 }
 
@@ -58,7 +58,7 @@ body, html {
 .navbar-brand {
 	color: #677077;
 	font: 2.75em "Century Gothic", sans-serif;
-	
+
     left: 1rem;
     top: 1rem;
 }
@@ -70,7 +70,7 @@ body, html {
     background: #f2b632;
     text-align: center;
     font: 10em;
-    padding: 0px;	
+    padding: 0px;
 }
 
 .navbar-inverse .navbar-brand:hover{
@@ -104,13 +104,13 @@ body, html {
     letter-spacing: 1vw;
 	color: white;
 }
-    
+
 .caption h2 {
   color: white;
   font-size: 6vw;
   letter-spacing: 1vw;
 }
-    
+
 .caption h4 {
   color: white;
   padding: 18px;
