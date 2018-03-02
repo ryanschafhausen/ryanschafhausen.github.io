@@ -115,6 +115,18 @@ footer {
   padding: 40px 0;
 }
 
+.contact {
+  color: white;
+  font-size: 36px;
+  margin: 0 20px;
+  text-decoration: none;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+  .marketing .col-md-4 {
+    padding: 20px;
+  }
+}
