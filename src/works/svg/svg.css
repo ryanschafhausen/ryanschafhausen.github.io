@@ -3,51 +3,71 @@ svg {
   height: auto;
 }
 .background-circle {
-  fill: grey;
-  stroke: #333;
+  fill: #daad86;
+  stroke: #98dafc;
   stroke-width: 15px;
 }
 .head, .ear-right, .ear-left {
   fill: #DDD;
+  stroke: #AAA;
+  stroke-width: 1px;
 }
 .antenna, .antenna-base, .antenna-ball {
   fill: #DDD;
+  stroke: #AAA;
+  stroke-width: 1px;
 }
 .antenna-stem {
   stroke-width: 2;
   stroke: #AAA;
 }
 .mouth {
-  fill: #333;
+  fill: #312c32;
 }
 .nose {
   fill: #DDD;
-  stroke: #333;
+  stroke: #312c32;
   stroke-width: 1.5px;
 }
 .eye-outer {
-  fill: #333;
+  fill: #312c32;
 }
 .eye-inner {
   fill: #DDD;
 }
 .eye-glare {
-  fill: #FFF;
+  fill: #FEFFFF;
+}
+.bolt {
+  fill: #312c32;
 }
 .neck {
   fill: #DDD;
+  stroke: #AAA;
+  stroke-width: 1px;
 }
 .body {
   fill: #DDD;
+  stroke: #AAA;
+  stroke-width: 1px;
+}
+.temp-stem {
+  stroke-width: 2;
+  stroke: #312c32;
+}
+.temp-ball {
+  fill: #312c32;
 }
 .body-circle-outer,
 .body-circle-middle-outer,
 .body-circle-middle-inner,
 .body-circle-inner {
   fill: #DDD;
-  stroke: #333;
+  stroke: #312c32;
   stroke-width: 2px;
 }
 .arm-left, .arm-right, .leg-left, .leg-right {
   fill: #DDD;
+  stroke: #AAA;
+  stroke-width: 1px;
 }
