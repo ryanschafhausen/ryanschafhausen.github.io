@@ -7,8 +7,15 @@ svg {
   stroke: #333;
   stroke-width: 15px;
 }
-.head {
+.head, .ear-right, .ear-left {
   fill: #DDD;
+}
+.antenna, .antenna-base, .antenna-ball {
+  fill: #DDD;
+}
+.antenna-stem {
+  stroke-width: 2;
+  stroke: #AAA;
 }
 .mouth {
   fill: #333;
@@ -31,5 +38,16 @@ svg {
   fill: #DDD;
 }
 .body {
+  fill: #DDD;
+}
+.body-circle-outer,
+.body-circle-middle-outer,
+.body-circle-middle-inner,
+.body-circle-inner {
+  fill: #DDD;
+  stroke: #333;
+  stroke-width: 2px;
+}
+.arm-left, .arm-right, .leg-left, .leg-right {
   fill: #DDD;
 }
