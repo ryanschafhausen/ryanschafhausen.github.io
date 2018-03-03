@@ -1,0 +1,35 @@
+svg {
+  width: 30%;
+  height: auto;
+}
+.background-circle {
+  fill: grey;
+  stroke: #333;
+  stroke-width: 15px;
+}
+.head {
+  fill: #DDD;
+}
+.mouth {
+  fill: #333;
+}
+.nose {
+  fill: #DDD;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+.eye-outer {
+  fill: #333;
+}
+.eye-inner {
+  fill: #DDD;
+}
+.eye-glare {
+  fill: #FFF;
+}
+.neck {
+  fill: #DDD;
+}
+.body {
+  fill: #DDD;
+}

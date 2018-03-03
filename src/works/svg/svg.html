@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ryan Schafhausen</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="svg.css">
+</head>
+<body>
+  <div class="container">
+    <h2>In Progress...<p><small>Using HTML and CSS directly to produce SVG images</small></p></h2>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 340 340">
+
+      <!-- Bg Circle -->
+      <circle class="background-circle" cx="170" cy="170" r="162"/>
+
+      <!-- Head -->
+      <rect class="head" x="145" y="75" width="50" height="50" rx="5" ry="5"/>
+      <g class="eye">
+        <circle class="eye-outer" cx="160" cy="90" r="6"/>
+        <circle class="eye-inner" cx="161" cy="89" r="2"/>
+        <circle class="eye-glare" cx="162" cy="88" r="1"/>
+      </g>
+      <g class="eye">
+        <circle class="eye-outer" cx="180" cy="90" r="6"/>
+        <circle class="eye-inner" cx="181" cy="89" r="2"/>
+        <circle class="eye-glare" cx="182" cy="88" r="1"/>
+      </g>
+      <polygon class="nose" points="165,107 170,97 175,107"></polygon>
+      <rect class="mouth" x="155" y="110" width="30" height="4"/>
+
+      <!-- Neck -->
+      <polygon class="neck" points="150,130 190,130 195,135 145,135"></polygon>
+
+      <!-- Body -->
+      <rect class="body" x="135" y="137" width="70" height="80" rx="5" ry="5"/>
+
+    </svg>
+  </div>
+</body>
+</html>
