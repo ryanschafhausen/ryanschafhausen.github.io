@@ -1,8 +1,36 @@
+/*
+  Color Pallate:
+   White: #feffff; Blue: #98dafc; Tan: #daad86; Brown: #312c32
+*/
+
+body {
+  background-color: #feffff;
+  font-family: Lora, serif;
+  color: #312c32;
+}
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: Raleway, sans-serif;
+}
+
 /* NAVBAR
 -------------------------------------------------- */
 
 .navbar {
   margin-bottom: 0;
+  background-color: #312c32;
+  border: none;
+}
+.nav.navbar-nav li a {
+  color: #feffff;
+}
+.navbar-default .navbar-brand {
+  color: #feffff;
+}
+.nav.navbar-nav li a:hover {
+  color: #98dafc;
+}
+.navbar-default .navbar-brand:hover{
+  color: #98dafc;
 }
 
 /* CUSTOMIZED CAROUSEL
@@ -16,12 +44,15 @@
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  color: #312c32;
+  font-family: Garmond, serif;
+  text-shadow: none;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-color: #daad86;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -49,13 +80,12 @@
 .jumbotron {
   height: 240px;
   margin-bottom: 30px;
-  background-color: #777;
-  color: white;
-  text-shadow: 1px 1px 1px black;
+  background-color: #daad86;
+  color: #312c32;
 }
 
 .jumbotron small {
-  color: white;
+  color: #312c32;
 }
 
 
@@ -65,28 +95,30 @@
 .marketing {
   margin: 60px auto;
 }
-
 .marketing .col-md-4 {
   text-align: center;
   font-size: 16px;
 }
-
 .marketing .col-md-4 .glyphicon {
   font-size: 60px;
-  background-color: #EAEAEA;
+  background-color: #98dafc;
   border-radius: 50%;
   padding: 40px;
-  color: #444;
+  color: #312c32;
 }
-
 .marketing a {
-  color: #444;
+  color: #312c32;
+}
+.marketing a:hover {
+    text-decoration: none;
+}
+.marketing a small {
+  color: #daad86;
+}
+.marketing a small:hover {
+  color: #98dafc;
 }
 
-.marketing a:hover {
-  color: black;
-  text-decoration: none;
-}
 
 /* STICKY FOOTER
 -------------------------------------------------- */
@@ -109,17 +141,21 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 160px;
-  background: #444;
+  background: #312c32;
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
 }
 
 .contact {
-  color: white;
+  color: #FEFFFF;
   font-size: 36px;
   margin: 0 20px;
   text-decoration: none;
+}
+
+.contact:hover {
+  color: #98dafc;
 }
 
 /* RESPONSIVE CSS
